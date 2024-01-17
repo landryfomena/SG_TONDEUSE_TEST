@@ -57,7 +57,7 @@ public class DataRepositoryUtils {
             entry = new Entry(fieldMaxX, fieldMaxY, mows);
             logger.debug("Entry extracted successfully : {} ", entry);
         } catch (IOException e) {
-            logger.error("Erreur lors de la lecture du fichier : {}", e.getMessage());
+            logger.error("something went wrong while reading the file : {}", e.getMessage());
         }
 
         return entry;
