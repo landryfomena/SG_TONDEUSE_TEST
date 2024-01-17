@@ -11,8 +11,8 @@ import lombok.*;
 public class Position {
     private int x;
     private int y;
-    private String Orientation;
+    private String orientation;
     public String getStringValue(){
-        return x+" "+y+" "+this.Orientation;
+        return this.x+" "+this.y+" "+this.orientation;
     }
 }
