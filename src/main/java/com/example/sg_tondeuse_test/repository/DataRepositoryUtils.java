@@ -12,9 +12,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Utility class for extracting data from a file and creating corresponding data objects.
+ */
 public class DataRepositoryUtils {
     private static final Logger logger = LoggerFactory.getLogger(DataRepositoryUtils.class);
+
+    /**
+     * Retrieves data from the specified file and constructs an Entry object.
+     *
+     * @param filePath The path to the file containing data.
+     * @return An Entry object representing the data extracted from the file.
+     */
     public static Entry getData(String filePath) {
         logger.debug("File found at the location : {}", filePath);
         Entry entry = null;
