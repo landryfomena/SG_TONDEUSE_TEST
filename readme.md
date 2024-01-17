@@ -16,7 +16,7 @@ The Mower Service Navigation application is designed to simulate the navigation 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/mower-service-navigation.git
+    git clone https://github.com/landryfomena/SG_TONDEUSE_TEST.git
     ```
 
 2. Navigate to the project directory:
