@@ -46,10 +46,10 @@ The Mower Service Navigation application is designed to simulate the navigation 
    - The first line represents the top-right coordinates of the rectangular lawn.
    - Each subsequent pair of lines represents the initial position and instructions for a mower.
 
-2. Run the application with the path to the input file as a command-line argument:
+2. Run the application with the test files under src/test :
 
     ```bash
-    java -jar build/libs/mower-service-navigation.jar /path/to/your/input/file.txt
+    ./gradlew test
     ```
 
 3. View the output to see the final positions of the mowers.
